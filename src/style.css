@@ -148,6 +148,7 @@ footer {
     position: absolute;
     left: 40px;
     width: calc(100vw - 80px);
+    height: min-content;
   }
 
   .Top p {
@@ -185,4 +186,14 @@ footer {
 
 #Reads-post {
   top: 230px;
+}
+
+#two {
+  position: absolute;
+  top: 450px;
+  width: 100%;
+}
+
+#Reads-footer {
+  top: 1200px;
 }
