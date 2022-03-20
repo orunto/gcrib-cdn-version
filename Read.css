@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+  }
+  
+.root{
+   width: 100vw;
+   overflow: hidden;
+}
+.App {
+    font-family: "Montserrat";  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+  
+.App-logo {
+    position: absolute;
+    top: -35px;
+    left: calc(50% - 125px);
+    width: 200px;
+    height: auto;
+}
+  
+.App-header {
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: calc(100vw - 140px);
+    color: white;
+    font-size: 20px;
+}
+  
+#menu {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+  
+#search {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  scroll-behavior: smooth;
+}
+
+.root{
+  width: 100vw;
+  overflow: hidden;
+}
+.App {
+  font-family: "Montserrat";  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.App-logo {
+  position: absolute;
+  top: -35px;
+  left: calc(50% - 125px);
+  width: 200px;
+  height: auto;
+}
+
+.App-header {
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  width: calc(100vw - 140px);
+  color: white;
+  font-size: 20px;
+}
+
+#menu {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+#search {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.Top {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background: url('./Rectangle\ 1.png');
+  background-size: 100%;
+}
+h1 {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.Top p {
+  position: absolute;
+  top: 320px;
+  left: 300px;
+  width: calc(100vw - 600px);
+  font-size: 22px;
+  text-align: center;
+  color: white;
+}
+
+.posts {
+  position: absolute;
+  top: 550px;
+  left: 70px;
+  width: calc(100vw - 140px);
+}
+
+.posts img {
+  width: 350px;
+  height: auto;
+}
+
+.postone {
+  position: absolute;
+  width: 350px;
+  left: 0;
+}
+
+
+.posttwo {
+  position: absolute;
+  width: 350px;
+  left: calc(50% - 175px);
+}
+
+.postthree {
+  position: absolute;
+  width: 350px;
+  right: 0;
+}
+
+.posts p {
+  left: 0;
+  margin: 0 ;
+  position: absolute;
+  top: 250px;
+  width: 350px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.posts a {
+  position: absolute;
+  top: 380px;
+  left: 0;
+  text-decoration: none;
+  color: #286086;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: #286086;
+  top: 1100px;
+}
+
+#see {
+  top: 450px;
+  left: calc(50% - 26px);
+}
+@media (max-width: 1200px) {
+  .App-header {
+    left: 40px;
+    position: absolute;
+    width: calc(100vw - 80px);
+    font-size: 20px;
+  }
+
+  .posts {
+    position: absolute;
+    left: 40px;
+    width: calc(100vw - 80px);
+  }
+
+  .Top p {
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    width: calc(100vw - 300px);
+    font-size: 22px;
+    text-align: center;
+    color: white;
+  }
+}
