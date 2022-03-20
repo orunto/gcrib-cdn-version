@@ -58,7 +58,7 @@ function Posts () {
                     <a className="posts-a" href='#'>Read More</a>
                 </div>
             </div>
-        <a href="reads" id='see'>Next Page</a>
+        <a href="#" id='see'>Next Page</a>
       </section>
     )
 }
