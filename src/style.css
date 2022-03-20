@@ -169,6 +169,10 @@ footer {
   height: 920px;
 }
 
+#Reads-post #see {
+  left: calc(50% - 41px);
+}
+
 #two {
   position: absolute;
   top: 450px;
