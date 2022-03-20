@@ -2,7 +2,7 @@ function Head () {
     return(
     <header className="App-header">
         <span id='menu'>Menu</span>
-        <img src="../images/logo.png" className="App-logo" />
+        <img src="./images/logo.png" className="App-logo" />
         <span id='search'>Search</span>
     </header>
     );
@@ -21,19 +21,19 @@ function Posts () {
     return (
         <section className='posts'>
         <div className='postone'>
-          <img src="../images/Rectangle 15.png" />
+          <img src="./images/Rectangle 15.png" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
           <a className="posts-a" href='#'>Read More</a>
         </div>
 
         <div className='posttwo'>
-          <img src="../images/Rectangle 15.png" />
+          <img src="./images/Rectangle 15.png" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
           <a className="posts-a" href='#'>Read More</a>
         </div>
 
         <div className='postthree'>
-          <img src="../images/Rectangle 15.png" />
+          <img src="./images/Rectangle 15.png" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
           <a className="posts-a" href='#'>Read More</a>
         </div>
