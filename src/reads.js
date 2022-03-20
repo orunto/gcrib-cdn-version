@@ -23,19 +23,19 @@ function Posts () {
                 <div className='postone'>
                     <img src="../images/Rectangle 15.png" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
-                    <a href='#'>Read More</a>
+                    <a className="posts-a" href='#'>Read More</a>
                 </div>
 
                 <div className='posttwo'>
                     <img src="../images/Rectangle 15.png" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
-                    <a href='#'>Read More</a>
+                    <a className="posts-a" href='#'>Read More</a>
                 </div>
 
                 <div className='postthree'>
                     <img src="../images/Rectangle 15.png" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
-                    <a href='#'>Read More</a>
+                    <a className="posts-a" href='#'>Read More</a>
                 </div>
             </div>
 
@@ -43,19 +43,19 @@ function Posts () {
                 <div className='postone'>
                     <img src="../images/Rectangle 15.png" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
-                    <a href='#'>Read More</a>
+                    <a className="posts-a" href='#'>Read More</a>
                 </div>
 
                 <div className='posttwo'>
                     <img src="../images/Rectangle 15.png" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
-                    <a href='#'>Read More</a>
+                    <a className="posts-a" href='#'>Read More</a>
                 </div>
 
                 <div className='postthree'>
                     <img src="../images/Rectangle 15.png" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim orci blandit at donec in nec sem tristique. Eros urna ut purus tellus pharetra arcu.</p>
-                    <a href='#'>Read More</a>
+                    <a className="posts-a" href='#'>Read More</a>
                 </div>
             </div>
         <a href="reads" id='see'>Next Page</a>

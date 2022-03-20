@@ -6,6 +6,9 @@ body{
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
 .root{
   width: 100vw;
   overflow: hidden;
@@ -80,6 +83,7 @@ h1 {
   top: 550px;
   left: 70px;
   width: calc(100vw - 140px);
+  height: 470px;
 }
 
 .posts img {
@@ -116,7 +120,7 @@ h1 {
   font-size: 20px;
 }
 
-.posts a {
+.posts-a {
   position: absolute;
   top: 380px;
   left: 0;
@@ -133,33 +137,9 @@ footer {
 }
 
 #see {
-  top: 450px;
+  position: absolute;
+  bottom: 0;
   left: calc(50% - 26px);
-}
-@media (max-width: 1200px) {
-  .App-header {
-    left: 40px;
-    position: absolute;
-    width: calc(100vw - 80px);
-    font-size: 20px;
-  }
-
-  .posts {
-    position: absolute;
-    left: 40px;
-    width: calc(100vw - 80px);
-    height: min-content;
-  }
-
-  .Top p {
-    position: absolute;
-    top: 320px;
-    left: 150px;
-    width: calc(100vw - 300px);
-    font-size: 22px;
-    text-align: center;
-    color: white;
-  }
 }
 
 
@@ -186,6 +166,7 @@ footer {
 
 #Reads-post {
   top: 230px;
+  height: 920px;
 }
 
 #two {
@@ -196,4 +177,38 @@ footer {
 
 #Reads-footer {
   top: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .App-header {
+    left: 40px;
+    position: absolute;
+    width: calc(100vw - 80px);
+    font-size: 20px;
+  }
+
+  .posts {
+    position: absolute;
+    left: 40px;
+    width: calc(100vw - 80px);
+  }
+
+  .Top p {
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    width: calc(100vw - 300px);
+    font-size: 22px;
+    text-align: center;
+    color: white;
+  }
 }
